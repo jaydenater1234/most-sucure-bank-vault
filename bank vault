@@ -1,0 +1,41 @@
+secret_word = "1423"
+guess = ""
+while guess != secret_word:
+ guess = input("enter guess: ")
+if guess == secret_word:
+ print("acsses granted")
+num1 = ("3")
+num2 = ("4")
+num3 = ("5")
+num4 = ("9")
+num1 = input("enter a number")
+num2 = input("enter a number")
+num3 = input("enter a number")
+num4 = input("enter a number")
+if ("enter a number") == (num1 + num2 + num3 + num4):
+ print("acsess denied")
+if ("enter a number") != (num1 + num2 + num3 + num4):
+ clr1 = ("red")
+ clr2 = ("blue")
+ clr3 = ("yellow")
+ clr4 = ("green")
+ clr1 = input("enter a color")
+ clr2 = input("enter a color")
+ clr3 = input("enter a color")
+ clr4 = input("enter a color")
+ if ("enter a color") == (clr1 + clr2 + clr3 + clr4):
+  print("acsess denied")
+ if ("enter a color") != (clr1 + clr2 + clr3 + clr4):
+   print("acsess granted")
+video_games = "fortnite"
+games = input("whats the best video game")
+if ("fortnite") == games:
+ print("correct")
+if ("fortnite") != games:
+ print("incorrect")
+video_game = "bugha"
+game = input("in that game who is the best player")
+if ("bugha") == game:
+ print("you have entered the vault")
+if ("bugha") != game:
+ print("incorrect")
